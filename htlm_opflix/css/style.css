@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Segoe UI light', sans-serif;
+}
+
+body{
+    background-color:#0B0B0B;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-height: 0;
+}
+
+nav img{
+    width: 69px;
+    height: 85px;
+    margin: 25px;
+}
+
+nav a{
+    margin: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../img/pipoca-perto-de-bobina-de-filme-e-pano-vermelho_23-2147698907.jpg);
+    background-size: 100%;
+    height: 800px;
+}
+
+.banner h1{
+    margin: 20px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.banner p{
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.banner button{
+    background-color: rgba(149, 3, 10, 0.685);
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
